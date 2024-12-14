@@ -129,6 +129,8 @@ This is a semester project for Mathematical Modeling course. Feel free to use th
 ## Authors
 
 [Names]
+
 Mathematical Modeling Course
+
 Silesian University of Science
 
