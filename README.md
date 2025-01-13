@@ -85,6 +85,7 @@ fig.write_html("pyramid.html")  # Save as interactive HTML
 
 ### Features of Plotly Visualization
 
+Egz:
 - Interactive 3D rotation and zoom
 - Hover information showing coordinates
 - Export to HTML for interactive web viewing
@@ -128,7 +129,7 @@ This is a semester project for Mathematical Modeling course. Feel free to use th
 
 ## Authors
 
-[Names]
+[Authors]
 
 Mathematical Modeling Course
 
