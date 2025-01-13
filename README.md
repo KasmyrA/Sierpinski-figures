@@ -6,13 +6,11 @@ A Python implementation for generating and visualizing Sierpinski figures in 2D 
 
 This project provides tools for creating and visualizing various Sierpinski fractals, including:
 - Sierpinski Triangle (2D)
-- Sierpinski Carpet (2D)
 - Sierpinski Pyramid (3D)
-- Sierpinski Sponge (3D)
 
 ## Features
 
-- Generation of Sierpinski fractals with customizable iteration depth
+- Generation of Sierpinski fractals
 - 2D visualization using matplotlib
 - 3D rendering with interactive rotation and zoom capabilities
 - Efficient recursive implementation
@@ -40,14 +38,22 @@ Or
 ```bask
 pip install poetry
 ```
-3. Install project dependencies:
+3. Activate the virtual environment:
+```bash
+poetry shell
+```
+
+4. Install project dependencies:
 ```bash
 poetry install
 ```
-
-4. Activate the virtual environment:
+5. Admire beauty of sierpiński figures:
 ```bash
-poetry shell
+python '.\src\Sierpinski triangle 3D.py'
+```
+
+```bash
+python '.\src\Sierpinski pyramid.py'
 ```
 
 ## Project Dependencies
@@ -56,6 +62,9 @@ Main dependencies managed by Poetry:
 - numpy: Mathematical operations and array handling
 - plotly: Interactive visualization of 2D and 3D figures
 - pandas: Data manipulation and structuring
+- maptplotlib: 2D triangle visualisation
+- Sphinx: Documentation
+
 
 ## Usage
 
@@ -123,9 +132,7 @@ The Sierpinski figures are fractal sets that exhibit self-similarity at differen
 
 This is a semester project for Mathematical Modeling course. Feel free to use this code for educational purposes.
 
-## License
 
-[Choose appropriate license]
 
 ## Authors
 
