@@ -35,7 +35,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 ```
 Or
 
-```bask
+```bash
 pip install poetry
 ```
 3. Activate the virtual environment:
@@ -47,11 +47,29 @@ poetry shell
 ```bash
 poetry install
 ```
-5. Admire beauty of sierpiński figures:
+
+5. Admire the beauty of Sierpinski figures:
 ```bash
-python '.\src\Sierpinski triangle 3D.py'
+python '.\src\Sierpinski triangle.py'
 ```
 
+```bash
+python '.\src\Sierpinski pyramid.py'
+```
+
+## How to Execute the Project
+
+To execute the project and generate the Sierpinski figures, follow these steps:
+
+1. Ensure you have installed all dependencies as described in the Installation section.
+2. Activate the virtual environment:
+```bash
+poetry shell
+```
+3. Run the Python scripts to generate the figures:
+```bash
+python '.\src\Sierpinski triangle.py'
+```
 ```bash
 python '.\src\Sierpinski pyramid.py'
 ```
@@ -62,9 +80,8 @@ Main dependencies managed by Poetry:
 - numpy: Mathematical operations and array handling
 - plotly: Interactive visualization of 2D and 3D figures
 - pandas: Data manipulation and structuring
-- maptplotlib: 2D triangle visualisation
+- matplotlib: 2D triangle visualization
 - Sphinx: Documentation
-
 
 ## Usage
 
@@ -94,7 +111,6 @@ fig.write_html("pyramid.html")  # Save as interactive HTML
 
 ### Features of Plotly Visualization
 
-Egz:
 - Interactive 3D rotation and zoom
 - Hover information showing coordinates
 - Export to HTML for interactive web viewing
@@ -117,7 +133,12 @@ sierpinski-figures/
 ├── tests/
 ├── pyproject.toml    # Poetry configuration and dependencies
 ├── poetry.lock      # Lock file for reproducible installations
-└── README.md
+├── README.md
+└── docs/            # Documentation files
+    ├── index.md
+    ├── sierpinski_triangle.md
+    ├── sierpinski_pyramid.md
+    └── usage.md
 ```
 
 ## Mathematical Background
@@ -130,9 +151,7 @@ The Sierpinski figures are fractal sets that exhibit self-similarity at differen
 
 ## Contributing
 
-This is a semester project for Mathematical Modeling course. Feel free to use this code for educational purposes.
-
-
+This is a semester project for the Mathematical Modeling course. Feel free to use this code for educational purposes.
 
 ## Authors
 
