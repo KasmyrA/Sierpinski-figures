@@ -1,6 +1,6 @@
 # Sierpinski Figures
 
-A Python implementation for generating and visualizing Sierpinski figures in 2D and 3D spaces. This project was developed as part of the Mathematical Modeling course.
+A Python implementation for generating and visualizing Sierpinski triangles in 2D and 3D spaces. This project was developed as part of the Mathematical Modeling course.
 
 ## Quick Start
 
@@ -142,7 +142,6 @@ sierpinski-figures/
 The Sierpinski figures are fractal sets that exhibit self-similarity at different scales. The project implements these mathematical concepts:
 
 - Recursive subdivision of geometric shapes
-- Fractal dimension calculations
 - Iterative geometric transformations
 
 ## Contributing
@@ -154,7 +153,6 @@ This is a semester project for the Mathematical Modeling course. Feel free to us
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Authors
-
 
 [Kacper Smyrak](https://www.linkedin.com/in/kacper-smyrak-596761241/)
 [Magdalena Śnietura](https://github.com/ml1006)
