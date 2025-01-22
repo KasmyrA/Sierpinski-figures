@@ -2,6 +2,8 @@
 
 A Python implementation for generating and visualizing Sierpinski triangles in 2D and 3D spaces. This project was developed as part of the Mathematical Modeling course.
 
+![Sierpinski Triangle](assets/sierpinski_triangle.png)
+
 ## Quick Start
 
 1. Clone the repository:
@@ -41,8 +43,18 @@ python '.\src\Sierpinski pyramid.py'
 ## Overview
 
 This project provides tools for creating and visualizing various Sierpinski fractals, including:
-- Sierpinski Triangle (2D)
-- Sierpinski Pyramid (3D)
+
+### Sierpinski Triangle (2D)
+![2D Triangle Example](assets/triangle.png)
+- Interactive visualization
+- Configurable iterations
+- Color mapping options
+
+### Sierpinski Pyramid (3D)
+![3D Pyramid Example](assets/pyramid.png)
+- Full 3D rotation
+- Zoom and pan controls
+- Interactive vertex highlighting
 
 ## Features
 
@@ -121,19 +133,25 @@ fig.write_html("pyramid.html")  # Save as interactive HTML
 
 ```
 sierpinski-figures/
-├── src/
-    ├── Sierpinski pyramid.md
-    ├── Sierpinski triangle orgin.py
-    └── Sierpinski triangle.py
-├── pyproject.toml    # Poetry configuration and dependencies
-├── poetry.lock      # Lock file for reproducible installations
-├── README.md
-└── docs/            # Documentation files
+├──  docs/            # Documentation files
     ├── index.md
     ├── sierpinski_pyramid.md    
     ├── sierpinski_triangle.md
     ├── theory.md
     └── usage.md
+├── examples/
+    ├── chaos_game.py
+    ├── convergence_visualizer.py
+    └── converage_analyzer.py
+├── src/
+    ├── Sierpinski pyramid.md
+    ├── Sierpinski triangle orgin.py
+    └── Sierpinski triangle.py
+├── LICNESE.md    
+├── pyproject.toml    # Poetry configuration and dependencies
+├── poetry.lock      # Lock file for reproducible 
+└──  README.md
+
     
 ```
 
