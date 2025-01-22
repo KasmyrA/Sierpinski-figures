@@ -109,36 +109,32 @@ fig.show()  # Opens interactive 3D visualization
 fig.write_html("pyramid.html")  # Save as interactive HTML
 ```
 
-### Features of Plotly Visualization
+### Features of Visualization
 
-- Interactive 3D rotation and zoom
+- Interactive 2D or 3D rotation and zoom
 - Hover information showing coordinates
-- Export to HTML for interactive web viewing
-- Multiple color schemes and styling options
-- Camera position control
+
 - Screenshot capabilities
+
 
 ## Project Structure
 
 ```
 sierpinski-figures/
-├── sierpinski/
-│   ├── __init__.py
-│   ├── shapes_2d.py
-│   ├── shapes_3d.py
-│   └── utils.py
-├── examples/
-│   ├── 2d_examples.py
-│   └── 3d_examples.py
-├── tests/
+├── src/
+    ├── Sierpinski pyramid.md
+    ├── Sierpinski triangle orgin.py
+    └── Sierpinski triangle.py
 ├── pyproject.toml    # Poetry configuration and dependencies
 ├── poetry.lock      # Lock file for reproducible installations
 ├── README.md
 └── docs/            # Documentation files
     ├── index.md
+    ├── sierpinski_pyramid.md    
     ├── sierpinski_triangle.md
-    ├── sierpinski_pyramid.md
+    ├── theory.md
     └── usage.md
+    
 ```
 
 ## Mathematical Background
@@ -153,11 +149,17 @@ The Sierpinski figures are fractal sets that exhibit self-similarity at differen
 
 This is a semester project for the Mathematical Modeling course. Feel free to use this code for educational purposes.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
 ## Authors
 
-[Authors]
+
+[Kacper Smyrak](https://www.linkedin.com/in/kacper-smyrak-596761241/)
+[Magdalena Śnietura](https://github.com/ml1006)
 
 Mathematical Modeling Course
-
-Silesian University of Science
+[Silesian University of Science](https://www.polsl.pl/)
+[Faculty of Applied Mathematics](https://www.polsl.pl/rms/)
 
