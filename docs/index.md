@@ -2,15 +2,33 @@
 
 Welcome to the documentation for the Sierpinski Figures project. This project provides tools for generating and visualizing Sierpinski fractals in both 2D and 3D spaces.
 
-## Table of Contents
+## Getting Started
+- [Installation Guide](../README.md#installation)
+- [Quick Start Tutorial](usage.md#quick-start)
+- [Basic Concepts](Mathematical%20proof.md#introduction)
 
-- [Overview](../README.md#overview)
-- [Installation](../README.md#installation)
-- [Usage](usage.md)
-  - [2D Sierpinski Triangle](sierpinski_triangle.md)
-  - [3D Sierpinski Pyramid](sierpinski_pyramid.md)
-- [Mathematical Background](Mathematical%20proof.md)
-  - [Core Concepts](Mathematical%20proof.md#core-lemmas)
-  - [Implementations](Mathematical%20proof.md#implementation-notes)
-- [Contributing](../README.md#contributing)
-- [Authors](../README.md#authors)
+## Core Components
+1. [2D Sierpinski Triangle](sierpinski_triangle.md)
+   - [Implementation Details](sierpinski_triangle.md#implementation)
+   - [Visualization Guide](sierpinski_triangle.md#visualization)
+   - [Interactive Controls](sierpinski_triangle.md#controls)
+
+2. [3D Sierpinski Pyramid](sierpinski_pyramid.md)
+   - [Implementation Details](sierpinski_pyramid.md#implementation)
+   - [3D Visualization](sierpinski_pyramid.md#visualization)
+   - [Performance Considerations](sierpinski_pyramid.md#performance)
+
+## Advanced Topics
+- [Mathematical Foundation](Mathematical%20proof.md)
+- [Algorithm Analysis](Mathematical%20proof.md#core-lemmas)
+- [Performance Optimization](usage.md#optimization)
+
+## Developer Resources
+- [API Reference](usage.md#api-reference)
+- [Contributing Guidelines](../README.md#contributing)
+- [Code Examples](usage.md#examples)
+
+## Additional Resources
+- [FAQ](usage.md#faq)
+- [Troubleshooting Guide](usage.md#troubleshooting)
+- [Version History](../README.md#version-history)

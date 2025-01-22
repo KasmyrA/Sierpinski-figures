@@ -1,5 +1,9 @@
 # Usage Guide
 
+## Quick Start
+
+### Installation
+
 This guide provides detailed instructions on how to use the Sierpinski Figures project to generate and visualize fractals.
 
 ## 2D Sierpinski Triangle

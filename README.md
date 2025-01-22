@@ -2,26 +2,7 @@
 
 A Python implementation for generating and visualizing Sierpinski figures in 2D and 3D spaces. This project was developed as part of the Mathematical Modeling course.
 
-## Overview
-
-This project provides tools for creating and visualizing various Sierpinski fractals, including:
-- Sierpinski Triangle (2D)
-- Sierpinski Pyramid (3D)
-
-## Features
-
-- Generation of Sierpinski fractals
-- 2D visualization using matplotlib
-- 3D rendering with interactive rotation and zoom capabilities
-- Efficient recursive implementation
-- Support for saving generated figures as images
-
-## Requirements
-
-- Python 3.12+
-- Poetry (Python package manager)
-
-## Installation
+## Quick Start
 
 1. Clone the repository:
 ```bash
@@ -56,6 +37,25 @@ python '.\src\Sierpinski triangle.py'
 ```bash
 python '.\src\Sierpinski pyramid.py'
 ```
+
+## Overview
+
+This project provides tools for creating and visualizing various Sierpinski fractals, including:
+- Sierpinski Triangle (2D)
+- Sierpinski Pyramid (3D)
+
+## Features
+
+- Generation of Sierpinski fractals
+- 2D visualization using matplotlib
+- 3D rendering with interactive rotation and zoom capabilities
+- Efficient recursive implementation
+- Support for saving generated figures as images
+
+## Requirements
+
+- Python 3.12+
+- Poetry (Python package manager)
 
 ## How to Execute the Project
 
